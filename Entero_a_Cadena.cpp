@@ -83,7 +83,7 @@ int main(){
         if(dia > 31 || dia <=0 ){
             cout<<"Dia incorrecto, no puede ser menor o igual 0 ni mayor a 31 dias!!"<<endl; 
             	cout<<"\nDesea continuar? SI=0    NO=1 : ";
-           		 	cin>>seguir;
+           		cin>>seguir;
             			cout<<endl;
 	        }else if(hora > 23 || hora <0){
 	           cout<<"Hora incorrecta, no puede ser menor a 0 ni mayor a 23 horas!!"<<endl; 
@@ -98,8 +98,8 @@ int main(){
 			        }else{
 			            mostrarFechaHora(anio,mes,dia,hora,minuto); 
 			            	cout<<"\nDesea continuar? SI=0    NO=1 : ";
-			       				cin>>seguir;
-			       					cout<<endl;
+			       			cin>>seguir;
+			       				cout<<endl;
 			        }
         
        
